@@ -20,7 +20,7 @@ spring:
     name: directory-service9001
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.bosssoft.hr.train.directoryservice9001.model
+  type-aliases-package: com.bosssoft.hr.train.common.entity
 pagehelper:
   helper-dialect: mysql
   reasonable: true
